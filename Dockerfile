@@ -10,7 +10,7 @@ RUN apt-get update && \
 	lrelease diffpdf.pro && \
 	qmake && \
 	make && \
-    cp diffpdf /opt && \
+	cp diffpdf /opt && \
 	cd /opt && \
 	rm -rf /diffpdf-console-master && \
 	chmod +x /entrypoint.sh && \
