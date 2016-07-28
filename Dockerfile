@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
 
-Add entrypoint.sh /
+ADD entrypoint.sh /
 
 RUN apt-get update && \
 	apt-get build-dep diffpdf -y && \
